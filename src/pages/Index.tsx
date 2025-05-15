@@ -7,6 +7,7 @@ import BreathingExercise from '@/components/BreathingExercise';
 import ResourceSection from '@/components/ResourceSection';
 import TestimonialCard from '@/components/TestimonialCard';
 import Footer from '@/components/Footer';
+import MusicPlayer from '@/components/MusicPlayer';
 import { Separator } from '@/components/ui/separator';
 
 const Index = () => {
@@ -24,6 +25,8 @@ const Index = () => {
         <DailyCheckIn />
         
         <BreathingExercise />
+        
+        <MusicPlayer />
         
         <section id="community" className="py-16 bg-gradient-to-b from-background to-secondary/50">
           <div className="container px-4 md:px-6">
